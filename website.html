@@ -4,10 +4,28 @@
         <title>Webpage!</title>
         <style>
             body {
+                font-family: Arial, sans-serif;
                 margin: 40px auto;
-                padding-left: 3%;
-                line-height: 1.6;
+                padding-left: 10%;
+                padding-right: 10%;
+                line-height: 1.4;
                 font-size: 18px;
+                color: #151515;;
+                background-color: #f1f1f1;
+            }
+            div {
+                border: 3px solid black;
+                margin: 10px;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            #inside {
+                font-weight: bold;
+            }
+            .italic{
+                font-style: italic;
+                color: darkgoldenrod;
+                font-size: larger;
             }
         </style>
     </head>
@@ -34,9 +52,18 @@
         </ol>
 
     <form>
-        <input type:"text" placeholder="Full Name" name="Name">
+<br>
+        <p>This is a form:</p>
+        <input type:"text" placeholder="Default text" name="Name">
         <button>Submit!</button>
     </form>
+<br>
+    <div id="inside">
+        <p>This is a text inside a <span class="italic">div</span> with a border.</p>
+    </div>
+
+<br>
+
 
     </body>
 </html>
