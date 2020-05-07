@@ -2,79 +2,61 @@
 <html>
 
 <head>
-    <title>Webpage!</title>
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px auto;
-            padding-left: 10%;
-            padding-right: 10%;
-            line-height: 1.4;
-            font-size: 18px;
-            color: #151515;
-            background: linear-gradient(#71dfb5 , #6347af);
-        }
-
-        div {
-            border: 3px solid black;
-            margin: 10px;
-            padding-left: 2%;
-            padding-right: 2%;
-        }
-
-        #inside {
-            font-weight: bold;
-        }
-
-        .italic {
-            font-style: italic;
-            color: darkgoldenrod;
-            font-size: larger;
-        }
-    </style>
+	<title>Webpage!</title>
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
 <body>
 
-    <h1 style="text-align: center;"> This is a website heading</h1>
-    <h2 style="background-color: aquamarine;">This is another heading but with background color</h2>
+	<h1 style="text-align: center;"> This is a website heading</h1>
+	<div style="width: max-content;">
+		<h2 style="background-color: mediumseagreen;">This is another heading but with background color</h2>
+	</div>
 
-    <p>This is an unordered lists.</p>
-    <ul>
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-    </ul>
+	<p>This is an unordered lists.</p>
+	<ul>
+		<li>First item</li>
+		<li>Second item</li>
+		<li>Third item</li>
+	</ul>
 
-    <b>BOLD </b>
-    <u>UNDERLINED</u>
-    <i> ITALIC</i>
+	<b>BOLD </b>
+	<u>UNDERLINED</u>
+	<i> ITALIC</i>
 
-    <p>The next is ordered list.</p>
-    <ol>
-        <li>First Item</li>
-        <li>Second Item</li>
-        <li>Third Item</li>
-    </ol>
+	<p>The next is ordered list.</p>
+	<ol>
+		<li>First Item</li>
+		<li>Second Item</li>
+		<li>Third Item</li>
+	</ol>
 
-    <form>
-        <br>
-        <p>This is a form:</p>
-        <input type:"text" placeholder="Default text">
-        <button>Submit!</button>
-    </form>
+	<form>
+		<br>
+		<p>This is a form:</p>
+		<input type="text" placeholder="Default text">
+		<button>A button!</button>
+		<br>
+		<input type="radio">
+		<br>
+		<input type="file">
+		<input type="range">
+		<input type="date">
+		<input type="week">
 
-    <br>
-    <div id="inside">
-        <p>This is a text inside a <span class="italic">div</span> with a border.</p>
-    </div>
-    <br>
+	</form>
 
-    <p>I will now try to have another html files to link. Also link for Google.ca</p>
-    <a href="newfile.html">Link to newfile.html</a>
-    <br>
-    <a href="https://www.google.ca">Link to Google.ca</a>
+	<br>
+	<div style="border: 3px solid black; width: max-content;" id="inside">
+		<p>This is a text inside a <span class="italic">div</span> with a border.</p>
+	</div>
+	<br>
+
+	<p>I will now try to have another html files to link. Also link for Google.ca</p>
+	<a href="index.html">Go back to main page</a>
+	<br>
+	<a href="https://www.google.ca">Link to Google.ca</a>
 
 </body>
 
