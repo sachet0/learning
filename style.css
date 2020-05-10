@@ -5,35 +5,47 @@
 
 body {
     color: #cecece;
-    background-color: #252525;
-    font-family: Arial, sans-serif;
-    font-size: 121%;
+    background-color: #202020;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 115%;
     line-height: 1.5;
-
 }
 
 header {
     height: 200px;
     background-color: #161616;
-
 }
 
 h1 {
     text-align: center;
     padding-top: 100px; 
+    font-family: Roboto Mono;
 } 
-footer {
-    text-align: right;
-    clear: both;
 
+footer {
+    text-align: center;
+    clear: both;
 }
 
 main {
     margin: 2% 8% 2% 8%;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 10px;
 }
-p {
+
+main img {
+    float: right;
+    margin: 1%;
+}
+
+main p {
     margin: 2%;
+    flex: auto;
+    padding: 20px;
+    text-align: left;
 }
+
 ul {
     padding-left: 8%;
 }
@@ -51,7 +63,7 @@ ul {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #cecece;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -67,5 +79,5 @@ ul {
 /* Add a color to the active/current link */
 .topnav a.active {
     background-color: #303030;
-    color: white;
+    color: #cecece;
 }
