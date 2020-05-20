@@ -34,9 +34,10 @@ main {
     border-radius: 10px;
 }
 
-main img {
-    float: right;
-    margin: 1%;
+.descrp {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 main p {
@@ -80,4 +81,41 @@ ul {
 .topnav a.active {
     background-color: #303030;
     color: #cecece;
+}
+
+.topnav h4 {
+    position: fixed;
+    right: 1%;
+    padding: 15px;
+    font-family: Roboto Mono;
+}
+
+
+/* Float four columns side by side */
+.column {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 10px;
+    text-align: center;
+    background-color: #404040;
+    width: min-content;
+    border-radius: 1.5%;
 }
