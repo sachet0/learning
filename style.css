@@ -59,6 +59,10 @@ ul {
     padding-left: 8%;
 }
 
+img {
+    border-radius: 1.5%;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
